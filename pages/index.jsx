@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
