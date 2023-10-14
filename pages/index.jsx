@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Planner's Portfolio</title>
+        <title>Planner&apos;s Portfolio</title>
         <meta
           name="description"
           content="Mustapaha Shuaibu's portfolio, A skillful hard working Frontend Developer"

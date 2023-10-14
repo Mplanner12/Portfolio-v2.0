@@ -40,8 +40,8 @@ export default function About() {
           ABOUT ME
         </h3>
         <p className="tracking-wider text-xl md:text-[1.95rem] my-[1.25rem] md:-mt-[2.85rem] md:mb-[4.5rem] text-md py-2 leading-8 text-center text-gray-800 dark:text-gray-200">
-          My name is Mustapha Shuaibu, also known as Planner, I'm a creative
-          living Soul with a wide range of experience.
+          My name is Mustapha Shuaibu, also known as Planner, I&apos;m a
+          creative living Soul with a wide range of experience.
         </p>
       </div>
       <div className="md:flex gap-10 mt-3 md:-mt-5 md:justify-between">
@@ -55,9 +55,9 @@ export default function About() {
           />
         </div>
         <p className="tracking-wider p-[1.85rem] text-center md:p-[1.5rem] md:leading-8 mt-[2rem] md:mt-0 text-xl md:text-[1.95rem] dark:text-white md:w-[65rem]">
-          I am a hard working, honest individual, I'm a good timekeeper, always
-          willing to learn new skills. I am friendly, helpful and polite, have a
-          good sense of humour, I am able to work independently in busy
+          I am a hard working, honest individual, I&apos;m a good timekeeper,
+          always willing to learn new skills. I am friendly, helpful and polite,
+          have a good sense of humour, I am able to work independently in busy
           environments and also within a team setting. I am outgoing and
           tactful, and able to listen effectively when solving problems.
         </p>
