@@ -1,6 +1,5 @@
 import React from "react";
 import MyAvatar from "../public/MyAvatar.jpg";
-// import Avatar4 from "../public/Avatar4.jpg";
 import Image from "next/image";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
@@ -22,7 +21,7 @@ export default function Intro() {
               <Typewriter
                 words={[
                   "Hi I'm MUSTAPHA",
-                  "I'm a Frontend Developer",
+                  "I'm a Fullstack Developer",
                   "A Cloud Engineer",
                   "And a Graphic Designer",
                 ]}
@@ -55,7 +54,12 @@ export default function Intro() {
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 1.1 }}
             >
-              <a className="" href="#">
+              <a
+                className=""
+                href="../public/Resume.pdf"
+                download
+                target="_blank"
+              >
                 Download Resume
               </a>
               <BsDownload />

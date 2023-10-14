@@ -6,7 +6,7 @@ import { GiCancel } from "react-icons/gi";
 import { motion } from "framer-motion";
 import Paths from "../pages/lib/data";
 import { useState } from "react";
-import { HashLink as Link } from "react-router-hash-link/dist/react-router-hash-link.cjs.development";
+import Link from "next/link";
 
 export default function Nav({ setDarkMode, darkMode }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,13 +39,9 @@ export default function Nav({ setDarkMode, darkMode }) {
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 1.1 }}
               >
-                <Link
-                  className="pl-[5rem] md:pl-4 md:py-3 md:rounded-xl md:shadow-xl font-extrabold md:font-normal md:dark:text-cyan-600 text-gray-900 dark:text-white text-lg px-4 border-none ml-8"
-                  to={link.link}
-                  smooth
-                >
-                  {link.name}
-                </Link>
+                <div className="pl-[5rem] md:pl-4 md:py-3 md:rounded-xl md:shadow-xl font-extrabold md:font-normal md:dark:text-cyan-600 text-gray-900 dark:text-white text-lg px-4 border-none ml-8">
+                  <Link href={link.link}>{link.name}</Link>
+                </div>
               </motion.li>
             );
           })}

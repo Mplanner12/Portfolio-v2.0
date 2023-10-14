@@ -20,9 +20,9 @@ export default function Project() {
   const showMore = () => {
     setVisiblity((prevValue) => prevValue + 3);
   };
-  // const showLess = () => {
-  //   setVisiblity((prevValue) => prevValue - 3);
-  // };
+  const showLess = () => {
+    setVisiblity((prevValue) => prevValue - 3);
+  };
   return (
     <section id="project" className="mt-[15rem] md:p-0">
       <p className="text-sm dark:text-white text-center mb-[0.45rem]">
@@ -49,7 +49,7 @@ export default function Project() {
                 height={"100%"}
                 layout="responsive"
                 src={project.image}
-                alt="project image"
+                alt="Project image"
               ></Image>
               <h1 className="font-bold text-[1.85rem] md:text-[2rem] text-center text-white dark:text-cyan-950 mb-[0.83rem] md:mb-[2rem] my-[2.5rem]">
                 {project.name}
@@ -71,15 +71,24 @@ export default function Project() {
             </motion.div>
           );
         })}
-        <div>
-          <button
-            onClick={showMore}
-            className={`${
-              visibility >= 9 ? "invisible" : "visible"
-            } w-fit p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto`}
-          >
-            Load More
-          </button>
+        <div className="mx-auto">
+          {visibility > 8 ? (
+            <button
+              onClick={showLess}
+              className="w-fit p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto"
+            >
+              Show less
+            </button>
+          ) : (
+            <button
+              onClick={showMore}
+              className={`${
+                visibility >= 9 ? "invisible" : "visible"
+              } w-fit p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto`}
+            >
+              Load More
+            </button>
+          )}
         </div>
       </div>
       <p className="text-center text-md font-bold text-black dark:text-cyan-900">
