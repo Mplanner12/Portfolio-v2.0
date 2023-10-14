@@ -1,5 +1,5 @@
 import React from "react";
-import { skills } from "../pages/lib/data";
+import { skills } from "../data";
 import { motion } from "framer-motion";
 
 const staggeredAnimation = {

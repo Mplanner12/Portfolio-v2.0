@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import { Projects } from "../pages/lib/data";
+import { Projects } from "../data";
 import { motion } from "framer-motion";
 import { AiFillGithub } from "react-icons/ai";
 import { FcGlobe } from "react-icons/fc";

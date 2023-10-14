@@ -1,12 +1,12 @@
-import ProductU from "../ProjectImages/Productu.jpg";
-import PortFolio from "../ProjectImages/PortfolioV1.jpg";
-import Snake from "../ProjectImages/Snake.jpg";
-import Signupin from "../ProjectImages/Signupin.jpg";
-import reduxl from "../ProjectImages/reduxl.jpg";
-import RealE from "../ProjectImages/RealE.jpg";
-import EtchS from "../ProjectImages/EtchS.jpg";
-import Weather from "../ProjectImages/Weather.jpg";
-import Calculator from "../ProjectImages/Calculator.jpg";
+import ProductU from "./ProjectImages/Productu.jpg";
+import PortFolio from "./ProjectImages/PortfolioV1.jpg";
+import Snake from "./ProjectImages/Snake.jpg";
+import Signupin from "./ProjectImages/Signupin.jpg";
+import reduxl from "./ProjectImages/reduxl.jpg";
+import RealE from "./ProjectImages/RealE.jpg";
+import EtchS from "./ProjectImages/EtchS.jpg";
+import Weather from "./ProjectImages/Weather.jpg";
+import Calculator from "./ProjectImages/Calculator.jpg";
 
 export const skills = [
   "AWS",
