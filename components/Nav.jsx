@@ -4,7 +4,7 @@ import { BsFillSunFill } from "react-icons/bs";
 import { AiOutlineMenu } from "react-icons/ai";
 import { GiCancel } from "react-icons/gi";
 import { motion } from "framer-motion";
-import Paths from "../pages/lib/data";
+import { Paths } from "../pages/lib/data";
 import { useState } from "react";
 import Link from "next/link";
 

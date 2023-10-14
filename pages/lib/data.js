@@ -87,12 +87,10 @@ export const Projects = [
   },
 ];
 
-const Paths = [
+export const Paths = [
   { name: "Home", link: "#intro" },
   { name: "About me", link: "#about" },
   { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#project" },
   { name: "Contact me", link: "#contact" },
 ];
-
-export default Paths;
