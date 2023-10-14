@@ -49,6 +49,7 @@ export default function About() {
           <Image
             className="md:w-full"
             src={Avatar3}
+            alt="Avatar"
             layout="fill"
             objectFit="cover"
           />

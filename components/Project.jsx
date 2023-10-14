@@ -49,6 +49,7 @@ export default function Project() {
                 height={"100%"}
                 layout="responsive"
                 src={project.image}
+                alt="project image"
               ></Image>
               <h1 className="font-bold text-[1.85rem] md:text-[2rem] text-center text-white dark:text-cyan-950 mb-[0.83rem] md:mb-[2rem] my-[2.5rem]">
                 {project.name}

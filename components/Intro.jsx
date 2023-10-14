@@ -63,7 +63,7 @@ export default function Intro() {
           </div>
         </div>
         <div className="mx-auto rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-          <Image src={MyAvatar} layout="fill" objectFit="cover" />
+          <Image src={MyAvatar} alt="Avatr" layout="fill" objectFit="cover" />
         </div>
       </div>
     </section>
