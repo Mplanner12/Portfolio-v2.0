@@ -56,13 +56,13 @@ export default function Project() {
               </h1>
               <div className="w-full flex justify-around md:justify-between md:mb-[1.5rem]">
                 <a href={project.github}>
-                  <button className="flex justify-between w-[8rem] md:w-[8rem] rounded-[1.75rem] text-sm p-[1.5rem] hover:bg-black dark:hover:bg-white font-extrabold dark:hover:text-cyan-950 hover:text-white dark:bg-cyan-950 bg-white text-black dark:text-white">
+                  <button className="flex justify-between w-[7rem] md:w-[8rem] rounded-[1.75rem] text-xs md:text-sm p-[1.5rem] hover:bg-black dark:hover:bg-white font-extrabold dark:hover:text-cyan-950 hover:text-white dark:bg-cyan-950 bg-white text-black dark:text-white">
                     Github
                     <AiFillGithub />
                   </button>
                 </a>
                 <a href={project.demo}>
-                  <button className="flex justify-between w-[8rem] md:w-[8rem] rounded-[1.75rem] text-sm p-[1.5rem] hover:bg-black dark:hover:bg-white font-extrabold dark:hover:text-cyan-950 hover:text-white dark:bg-cyan-950  bg-white text-black dark:text-white">
+                  <button className="flex justify-between w-[7rem] md:w-[8rem] rounded-[1.75rem] text-xs md:text-sm p-[1.5rem] hover:bg-black dark:hover:bg-white font-extrabold dark:hover:text-cyan-950 hover:text-white dark:bg-cyan-950  bg-white text-black dark:text-white">
                     Demo
                     <FcGlobe />
                   </button>
@@ -75,7 +75,7 @@ export default function Project() {
           {visibility > 8 ? (
             <button
               onClick={showLess}
-              className="w-fit p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto"
+              className=" p-[1.15rem] md:p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto"
             >
               Show less
             </button>
@@ -84,7 +84,7 @@ export default function Project() {
               onClick={showMore}
               className={`${
                 visibility >= 9 ? "invisible" : "visible"
-              } w-fit p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto`}
+              }  p-[1.15rem] md:p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto`}
             >
               Load More
             </button>

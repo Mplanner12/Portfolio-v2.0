@@ -13,7 +13,7 @@ export default function Nav({ setDarkMode, darkMode }) {
   return (
     <section className="min-h-screen w-full">
       <nav className="w-full py-10 mb-12 flex justify-between dark:text-white">
-        <h1 className="font-burtons text-xl">Planner</h1>
+        <h1 className="relative top-[1rem] font-burtons text-xl">Planner</h1>
         <div
           onClick={() => setIsOpen(!isOpen)}
           className="text-2xl z-20 w-fit md:hidden absolute right-[3rem] top-[3.5rem]"
