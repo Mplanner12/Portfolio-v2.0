@@ -71,8 +71,7 @@ export default function Intro() {
               <a
                 className="w-[10.5rem] md:w-fit"
                 href={resume} 
-                download
-                target="_blank"
+                download="resume"
               >
                 Download Resume
               </a>
