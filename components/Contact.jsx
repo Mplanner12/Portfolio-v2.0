@@ -27,57 +27,34 @@ export default function Contact() {
     }
   });
   return (
-    <motion.section
-      id="contact"
-      animate={animation1}
-      ref={ref}
-      className="mt-[5rem] md:mt-[8rem]"
-    >
+    <section id="contact" className="mt-[5rem] md:mt-[8rem]">
       <p className="text-sm dark:text-white text-center mb-[1.25rem]">
         Get in Touch
       </p>
       <h2 className=" dark:text-cyan-600 font-bold text-[2.15rem] md:text-[2.5rem] text-center mb-[2.3rem] md:mb-[4rem]">
         CONTACT ME
       </h2>
-      <div className="bg-gray-200 dark:bg-gray-200 border-2 border-gray-500 flex justify-between md:justify-around rounded-2xl p-[1.35rem] w-[23.85rem] md:w-[28rem] h-fit mx-auto">
-        <span className="flex justify-between text-gray-900 dark:text-cyan-900">
+      <motion.div
+        animate={animation1}
+        ref={ref}
+        className="bg-gray-200 dark:bg-gray-200 border-2 border-gray-500 flex flex-col md:flex-row justify-between md:justify-around rounded-2xl p-[1.35rem] w-[19.85rem] md:w-[28rem] h-fit mx-auto"
+      >
+        <span className="w-fit mx-auto flex justify-around md:justify-between text-gray-900 dark:text-cyan-900">
           <AiTwotoneMail />
           <a
-            className="ml-[0.45rem] md:text-lg"
+            className="md:ml-[0.45rem] md:text-lg"
             href="mailto:almussanmplanner12@gmail"
           >
             almussanmplanner12@gmail
           </a>
         </span>
-        <span className="flex justify-between text-gray-900 dark:text-cyan-900">
+        <span className="flex justify-around md:justify-between mx-auto text-gray-900 w-fit dark:text-cyan-900">
           <IoLogoWhatsapp />{" "}
-          <a className="ml-[0.45rem] md:text-lg" href="tel:+2349016247299">
+          <a className="md:ml-[0.45rem] md:text-lg" href="tel:+2349016247299">
             Whatsapp
           </a>
         </span>
-      </div>
-      {/* <form
-        className="bg-inherit rounded-xl p-[3rem] md:w-[45rem] md:flex md:flex-col md:justify-center md:mx-auto"
-        action=""
-      >
-        <input
-          className="w-full h-[3rem] px-[1rem] py-[1.5rem] dark:bg-white to-gray-800 text-cyan-800 shadow-xl rounded-xl mb-[2rem]"
-          type="text"
-          name="senderEmail"
-          placeholder="Your Email"
-        />
-        <textarea
-          className="resize-none w-full h-[14.5rem] active:border-none px-[1rem] py-[1.5rem] bg-white shadow-xl rounded-xl text-black"
-          type="text"
-          name="message"
-          placeholder="Your message"
-        ></textarea>
-        <button className="w-full bg-black bg-gradient-to-r dark:from-cyan-700 to-gray-800 p-[1rem] mt-[1.5rem] rounded-2xl shadow-xl text-white">
-          <a className="" href="mailto:almussanmplanner12@gmail">
-            Submit
-          </a>
-        </button>
-      </form> */}
-    </motion.section>
+      </motion.div>
+    </section>
   );
 }
