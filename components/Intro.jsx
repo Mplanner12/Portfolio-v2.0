@@ -14,8 +14,8 @@ import { BsDownload } from "react-icons/bs";
 
 export default function Intro() {
   useEffect(() => {
-    toast("You can switch theme via nav bar ☀ ☾", {
-      icon: "☀️🌚",
+    toast("You can switch theme via nav bar ☀ 🌜", {
+      icon: "👋",
       style: {
         borderRadius: "10px",
         background: "#333",
