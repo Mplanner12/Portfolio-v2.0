@@ -11,6 +11,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { BsDownload } from "react-icons/bs";
+import resume from "../public/Resume.pdf";
 
 export default function Intro() {
   useEffect(() => {
