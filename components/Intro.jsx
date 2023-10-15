@@ -10,6 +10,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { BsDownload } from "react-icons/bs";
+import resume from "../public/Resume.pdf"
 
 export default function Intro() {
   return (
@@ -69,7 +70,7 @@ export default function Intro() {
             >
               <a
                 className="w-[10.5rem] md:w-fit"
-                href="./"
+                href={resume} 
                 download
                 target="_blank"
               >
