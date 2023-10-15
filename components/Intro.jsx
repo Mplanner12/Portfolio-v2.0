@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MyAvatar from "../public/MyAvatar.jpg";
 import Image from "next/image";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
+import toast, { Toaster } from "react-hot-toast";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -12,8 +13,19 @@ import {
 import { BsDownload } from "react-icons/bs";
 
 export default function Intro() {
+  useEffect(() => {
+    toast("You can switch theme via nav bar ☀ ☾", {
+      icon: "☀️🌚",
+      style: {
+        borderRadius: "10px",
+        background: "#333",
+        color: "#fff",
+      },
+    });
+  }, []);
   return (
     <section id="intro" className="-mt-[35rem] md:-mt-[35rem] lg:-mt-[39rem]">
+      <Toaster />
       <div className="text-center p-10 py-10 md:px-3 md:flex md:justify-end lg:w-full">
         <div className="w-full relative md:top-20 md:w-[30rem] px-[1.5rem]">
           <h3 className="h-[8rem] mb-[3.25rem] lg:mb-[4.5rem] text-[2.35rem] py-2 dark:text-cyan-600 md:text-4xl md:leading-[3rem]">
@@ -69,8 +81,8 @@ export default function Intro() {
             >
               <a
                 className="w-[10.5rem] md:w-fit"
-                href="./"
-                download
+                href="Resume.pdf"
+                download="resume.pdf"
                 target="_blank"
               >
                 Download Resume
