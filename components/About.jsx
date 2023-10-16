@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Avatar3 from "../public/Avatar3.jpg";
+import Avatar4 from "../public/Avatar4.jpg";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -48,7 +48,7 @@ export default function About() {
         <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-xl w-80 h-80 relative overflow-hidden mt-10 md:mt-0 md:h-[25rem] md:w-[47rem] md:mx-0">
           <Image
             className="md:w-full"
-            src={Avatar3}
+            src={Avatar4}
             alt="Avatar"
             layout="fill"
             objectFit="cover"
