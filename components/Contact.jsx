@@ -50,7 +50,10 @@ export default function Contact() {
         </span>
         <span className="flex justify-around md:justify-between mx-auto text-gray-900 w-fit dark:text-cyan-900">
           <IoLogoWhatsapp />{" "}
-          <a className="md:ml-[0.45rem] md:text-lg" href="tel:+2349016247299">
+          <a
+            className="md:ml-[0.45rem] md:text-lg"
+            href="https://wa.link/4ndrqo"
+          >
             Whatsapp
           </a>
         </span>
