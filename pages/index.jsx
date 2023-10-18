@@ -18,7 +18,7 @@ export default function Home() {
           name="description"
           content="Mustapaha Shuaibu's portfolio, A skillful hard working Frontend Developer"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Avatar4.jpg" />
       </Head>
       <main className=" bg-gray-100 px-8 dark:bg-gray-900 md:px-10 lg:px-14">
         <Nav setDarkMode={setDarkMode} darkMode={darkMode} />
