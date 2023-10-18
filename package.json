@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.1.1",
     "firebase": "^9.10.0",
     "framer-motion": "^10.16.4",
     "moment": "^2.29.4",
