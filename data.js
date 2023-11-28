@@ -7,6 +7,7 @@ import RealE from "./ProjectImages/RealE.jpg";
 import EtchS from "./ProjectImages/EtchS.jpg";
 import Weather from "./ProjectImages/Weather.jpg";
 import Calculator from "./ProjectImages/Calculator.jpg";
+import Plannorium from "./ProjectImages/Plannorium.jpg";
 
 export const skills = [
   "AWS",
@@ -36,6 +37,12 @@ export const Projects = [
     image: ProductU,
     github: "https://github.com/Mplanner12/Product-U",
     demo: "https://product-u.vercel.app",
+  },
+  {
+    name: "Plannorium-Ecommerce",
+    image: Plannorium ,
+    github: "https://github.com/Mplanner12/Plannorium-ecommerce",
+    demo: "https://plannorium-ecommerce.vercel.app/",
   },
   {
     name: "Real Estate",
@@ -73,12 +80,12 @@ export const Projects = [
     github: "https://github.com/Mplanner12/Etch-a-sketch",
     demo: "https://mplanner12.github.io/Etch-a-sketch/",
   },
-  {
+  /*{
     name: "SignUp/SignIn",
     image: Signupin,
     github: "https://github.com/Mplanner12/Sign-in-sign-up-form",
     demo: "https://mplanner12.github.io/Sign-in-sign-up-form/",
-  },
+  },*/
   {
     name: "Redux Login",
     image: reduxl,
