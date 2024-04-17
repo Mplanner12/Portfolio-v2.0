@@ -4,6 +4,8 @@ import { Projects } from "../data";
 import { motion } from "framer-motion";
 import { AiFillGithub } from "react-icons/ai";
 import { FcGlobe } from "react-icons/fc";
+import { FaArrowCircleRight } from "react-icons/fa";
+import { FaArrowCircleLeft } from "react-icons/fa";
 
 const staggeredAnimation = {
   initial: { opacity: 0, x: 22.5 },
@@ -41,7 +43,7 @@ export default function Project() {
               whileInView="animate"
               whileHover={{ scale: 0.9 }}
               custom={index}
-              className="basis-1/4 flex-1 border-black border-2 dark:bg-white bg-black rounded-[2rem] p-[1.7rem]"
+              className="cursor-pointer basis-1/4 flex-1 border-black border-2 dark:bg-white bg-black rounded-[2rem] p-[1.7rem]"
             >
               <Image
                 className="rounded-lg object-cover"
@@ -75,18 +77,24 @@ export default function Project() {
           {visibility > 8 ? (
             <buttonb
               onClick={showLess}
-              className=" p-[1.15rem] md:p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto"
+              className="flex justify-between p-[1.15rem] md:p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto"
             >
-              Show less
+              <p className="-mt-1 text-sm md:text-base mr-[0.5rem]">
+                Show less
+              </p>
+              <FaArrowCircleLeft />
             </buttonb>
           ) : (
             <button
               onClick={showMore}
               className={`${
                 visibility >= 9 ? "invisible" : "visible"
-              }  p-[1.15rem] md:p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto`}
+              }  flex justify-between p-[1.15rem] px-[0.85rem] md:p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto`}
             >
-              Load More
+              <p className="-mt-1 text-sm md:text-base mr-[0.5rem]">
+                Load More
+              </p>
+              <FaArrowCircleRight />
             </button>
           )}
         </div>

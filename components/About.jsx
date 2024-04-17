@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Avatar4 from "../public/Avatar4.jpg";
+import Myphoto from "../ProjectImages/Myphoto.jpg";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -46,13 +46,13 @@ export default function About() {
         </p>
       </div>
       <div className="md:flex gap-10 mt-3 md:-mt-5 md:justify-between">
-        <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-xl w-80 h-80 relative overflow-hidden mt-10 md:mt-0 md:h-[25rem] md:w-[47rem] md:mx-0">
+        <div className="mx-auto rounded-xl w-80 h-80 relative overflow-hidden mt-12 md:mt-10 md:h-[25rem] md:w-[47rem] md:mx-0">
           <Image
             className="md:w-full"
-            src={Avatar4}
-            alt="Avatar"
-            layout="fill"
-            objectFit="cover"
+            src={Myphoto}
+            alt="My Photo"
+            // layout="fill"
+            objectFit="contain"
           />
         </div>
         <p className="tracking-wider p-[1.85rem] text-center md:p-[1.5rem] md:leading-8 mt-[2rem] md:mt-0 text-xl md:text-[1.95rem] dark:text-white md:w-[65rem]">
