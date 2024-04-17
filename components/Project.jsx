@@ -73,12 +73,12 @@ export default function Project() {
         })}
         <div className="mx-auto">
           {visibility > 8 ? (
-            <button
+            <buttonb
               onClick={showLess}
               className=" p-[1.15rem] md:p-[1.5rem] bg-black dark:bg-cyan-900 text-white rounded-xl mx-auto"
             >
               Show less
-            </button>
+            </buttonb>
           ) : (
             <button
               onClick={showMore}

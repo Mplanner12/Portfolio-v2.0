@@ -1,15 +1,13 @@
 import React, { useEffect } from "react";
-import MyAvatar from "../public/MyAvatar.jpg";
+import MyAvatar from "../public/Avatar2.jpg";
 import Image from "next/image";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 import toast, { Toaster } from "react-hot-toast";
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillInstagram,
-  AiFillGithub,
-} from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 import { BsDownload } from "react-icons/bs";
 
 export default function Intro() {
@@ -52,25 +50,25 @@ export default function Intro() {
               className="w-[1rem] md:w-[2.25rem]"
               href="https://instagram.com/m_planner"
             >
-              <AiFillInstagram />
+              <FaInstagram />
             </a>
             <a
               className="w-[1rem] md:w-[2.25rem]"
               href="https://twitter.com/_mussan_planner"
             >
-              <AiFillTwitterCircle />
+              <FaXTwitter />
             </a>
             <a
               className="w-[1rem] md:w-[2.25rem]"
               href="https://github.com/Mplanner12"
             >
-              <AiFillGithub />
+              <FaGithub />
             </a>
             <a
               className="w-[1rem] md:w-[2.25rem]"
               href="https://linkedin.com/in/mustapha-shuaibu-91037a1b7"
             >
-              <AiFillLinkedin />
+              <FaLinkedinIn />
             </a>
           </div>
           <div className="flex justify-center w-full mt-[2.25rem] md:mt-[2.5rem] md:self-center">
@@ -82,7 +80,7 @@ export default function Intro() {
               <a
                 className="w-[10.5rem] md:w-fit"
                 href="Resume.pdf"
-                download="resume.pdf"
+                download="Resume-1.pdf"
               >
                 Download Resume
               </a>

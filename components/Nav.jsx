@@ -11,7 +11,7 @@ import Link from "next/link";
 export default function Nav({ setDarkMode, darkMode }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <section className="min-h-screen w-full">
+    <section className="min-h-screen w-full md:mb-[3rem]">
       <nav className="w-full py-10 mb-12 flex justify-between dark:text-white">
         <h1 className="relative top-[1rem] font-burtons text-xl">Planner</h1>
         <div
@@ -26,7 +26,7 @@ export default function Nav({ setDarkMode, darkMode }) {
           } md:visible`}
         >
           <li
-            className="md:-my-[2.5rem] mt-[1rem] mb-[0.8rem] md:mb-0"
+            className="cursor-pointer md:-my-[2.5rem] mt-[1rem] mb-[0.8rem] md:mb-0"
             onClick={() => setDarkMode(!darkMode)}
           >
             {!darkMode ? <BsFillMoonStarsFill /> : <BsFillSunFill />}
@@ -34,7 +34,7 @@ export default function Nav({ setDarkMode, darkMode }) {
           {Paths.map((link, index) => {
             return (
               <motion.li
-                className="md:bg-none mb-[3rem] md:mb-none w-full md:w-fit rounded-xl shadow-xl md:rounded-none md:shadow-none py-5 md:py-2"
+                className="cursor-pointer md:bg-none mb-[3rem] md:mb-none w-full md:w-fit rounded-xl shadow-xl md:rounded-none md:shadow-none py-5 md:py-2"
                 key={index}
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 1.1 }}

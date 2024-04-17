@@ -8,6 +8,8 @@ import EtchS from "./ProjectImages/EtchS.jpg";
 import Weather from "./ProjectImages/Weather.jpg";
 import Calculator from "./ProjectImages/Calculator.jpg";
 import Plannorium from "./ProjectImages/Plannorium.jpg";
+import Xlogo from "./ProjectImages/X-logo.jpeg";
+import Edas from "./ProjectImages/edas.png";
 
 export const skills = [
   "AWS",
@@ -33,16 +35,28 @@ export const skills = [
 
 export const Projects = [
   {
+    name: "Plannorium Ecommerce",
+    image: Plannorium,
+    github: "https://github.com/Mplanner12/Plannorium-ecommerce",
+    demo: "https://plannorium-ecommerce.vercel.app/",
+  },
+  {
+    name: "EDAS APP",
+    image: Edas,
+    github: "https://github.com/Mplanner12/EDASApp",
+    demo: "https://edas-app.vercel.app",
+  },
+  {
+    name: "Twitter Clone",
+    image: Xlogo,
+    github: "https://github.com/Mplanner12/twitter-t3-app",
+    demo: "https://twitter-t3-app-two.vercel.app/",
+  },
+  {
     name: "Product U",
     image: ProductU,
     github: "https://github.com/Mplanner12/Product-U",
     demo: "https://product-u.vercel.app",
-  },
-  {
-    name: "Plannorium-Ecommerce",
-    image: Plannorium ,
-    github: "https://github.com/Mplanner12/Plannorium-ecommerce",
-    demo: "https://plannorium-ecommerce.vercel.app/",
   },
   {
     name: "Real Estate",
@@ -80,12 +94,6 @@ export const Projects = [
     github: "https://github.com/Mplanner12/Etch-a-sketch",
     demo: "https://mplanner12.github.io/Etch-a-sketch/",
   },
-  /*{
-    name: "SignUp/SignIn",
-    image: Signupin,
-    github: "https://github.com/Mplanner12/Sign-in-sign-up-form",
-    demo: "https://mplanner12.github.io/Sign-in-sign-up-form/",
-  },*/
   {
     name: "Redux Login",
     image: reduxl,
