@@ -33,7 +33,7 @@ export default function Intro() {
                   "Hi, Welcome",
                   "I'm MUSTAPHA",
                   "I'm a Fullstack Developer",
-                  "A Cloud Engineer",
+                  "AI & Machine Learning Engineer",
                   "And a Graphic Designer",
                 ]}
                 loop={9999}
@@ -79,7 +79,7 @@ export default function Intro() {
             >
               <a
                 className="w-[10.5rem] md:w-fit"
-                href="Resume.pdf"
+                href="Resume-1.pdf"
                 download="Resume-1.pdf"
               >
                 Download Resume
