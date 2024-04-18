@@ -35,7 +35,7 @@ export const skills = [
 
 export const Projects = [
   {
-    name: "Plannorium Ecommerce",
+    name: "PLANNORIUM ECOMMERCE",
     image: Plannorium,
     github: "https://github.com/Mplanner12/Plannorium-ecommerce",
     demo: "https://plannorium-ecommerce.vercel.app/",
@@ -47,55 +47,55 @@ export const Projects = [
     demo: "https://edas-app.vercel.app",
   },
   {
-    name: "Twitter Clone",
+    name: "TWITTER CLONE",
     image: Xlogo,
     github: "https://github.com/Mplanner12/twitter-t3-app",
     demo: "https://twitter-t3-app-two.vercel.app/",
   },
   {
-    name: "Subscription Packages",
+    name: "SUBSCRIPTION PACKAGES",
     image: SubPackage,
     github: "https://github.com/Mplanner12/Subscripton-Packages",
     demo: "https://subscripton-packages.vercel.app/",
   },
   {
-    name: "Product U",
+    name: "PRODUCT U",
     image: ProductU,
     github: "https://github.com/Mplanner12/Product-U",
     demo: "https://product-u.vercel.app",
   },
   {
-    name: "Real Estate",
+    name: "REAL ESTATE",
     image: RealE,
     github: "https://github.com/Mplanner12/Real_estate_project",
     demo: "https://real-estate-project-three.vercel.app/",
   },
   {
-    name: "Portfolio v1",
+    name: "PORTFOLIO V1",
     image: PortFolio,
     github: "https://github.com/Mplanner12/portfolio",
     demo: "https://mplanner12.github.io/portfolio/",
   },
   {
-    name: "Calculator",
+    name: "CALCULATOR APP",
     image: Calculator,
     github: "https://github.com/Mplanner12/Simple-calculator",
     demo: "https://mplanner12.github.io/Simple-calculator/",
   },
   {
-    name: "Weather App",
+    name: "WEATHER APP",
     image: Weather,
     github: "https://github.com/Mplanner12/Weather-App",
     demo: "https://mplanner12.github.io/Weather-App/",
   },
   {
-    name: "Etch a sketch",
+    name: "ETCH A SKETCH",
     image: EtchS,
     github: "https://github.com/Mplanner12/Etch-a-sketch",
     demo: "https://mplanner12.github.io/Etch-a-sketch/",
   },
   {
-    name: "Redux Login",
+    name: "REDUX LOGIN/LOGOUT SYSTEM",
     image: reduxl,
     github: "https://github.com/Mplanner12/Login---Logout-using-redux-system",
     demo: "https://login-logout-redux-mplanner12.vercel.app/",
