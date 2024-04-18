@@ -1,6 +1,6 @@
 import ProductU from "./ProjectImages/Productu.jpg";
 import PortFolio from "./ProjectImages/PortfolioV1.jpg";
-import Snake from "./ProjectImages/Snake.jpg";
+import SubPackage from "./ProjectImages/SubPackage.png";
 import Signupin from "./ProjectImages/Signupin.jpg";
 import reduxl from "./ProjectImages/reduxl.jpg";
 import RealE from "./ProjectImages/RealE.jpg";
@@ -65,6 +65,12 @@ export const Projects = [
     demo: "https://real-estate-project-three.vercel.app/",
   },
   {
+    name: "Subscription Packages",
+    image: SubPackage,
+    github: "https://github.com/Mplanner12/Subscripton-Packages",
+    demo: "https://subscripton-packages.vercel.app/",
+  },
+  {
     name: "Portfolio v1",
     image: PortFolio,
     github: "https://github.com/Mplanner12/portfolio",
@@ -75,12 +81,6 @@ export const Projects = [
     image: Calculator,
     github: "https://github.com/Mplanner12/Simple-calculator",
     demo: "https://mplanner12.github.io/Simple-calculator/",
-  },
-  {
-    name: "Snake Game",
-    image: Snake,
-    github: "https://github.com/Mplanner12/snakegame",
-    demo: "https://mplanner12.github.io/snakegame/",
   },
   {
     name: "Weather App",
