@@ -26,7 +26,7 @@ export default function Intro() {
       <Toaster />
       <div className="text-center p-10 py-10 md:px-3 md:flex md:justify-end lg:w-full">
         <div className="w-full relative md:top-20 md:w-[30rem] px-[1.5rem]">
-          <h3 className="h-[8rem] mb-[3.25rem] lg:mb-[4.5rem] text-[2.35rem] py-2 dark:text-cyan-600 md:text-4xl md:leading-[3rem]">
+          <h3 className="h-[8rem] mb-[4.35rem] lg:mb-[4.5rem] text-[2.35rem] py-2 dark:text-cyan-600 md:text-4xl md:leading-[3rem]">
             <span className="md:text-[4.5rem]">
               <Typewriter
                 words={[
