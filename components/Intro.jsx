@@ -95,6 +95,7 @@ export default function Intro() {
             alt="Avatr"
             layout="fill"
             objectFit="cover"
+            priority
           />
         </div>
       </div>
