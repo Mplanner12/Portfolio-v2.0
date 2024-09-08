@@ -8,6 +8,7 @@ import EtchS from "./ProjectImages/EtchS.jpg";
 import Weather from "./ProjectImages/Weather.jpg";
 import Calculator from "./ProjectImages/Calculator.jpg";
 import Plannorium from "./ProjectImages/Plannorium.jpg";
+import OEandA from "./ProjectImages/OEandA.png";
 import Xlogo from "./ProjectImages/X-logo.jpeg";
 import Edas from "./ProjectImages/edas.png";
 import home from "./ProjectImages/home.png";
@@ -44,6 +45,12 @@ export const Projects = [
     image: Plannorium,
     github: "https://github.com/Mplanner12/Plannorium-ecommerce",
     demo: "https://plannorium-ecommerce.vercel.app/",
+  },
+  {
+    name: "OEandA",
+    image: OEandA,
+    github: "https://github.com/Mplanner12/o-eand-a-real-estate",
+    demo: "https://o-eand-a-real-estate.vercel.app/",
   },
   {
     name: "TWITTER CLONE",

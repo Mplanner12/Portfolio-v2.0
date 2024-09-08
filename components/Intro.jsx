@@ -48,7 +48,7 @@ export default function Intro() {
           <div className="text-5xl flex justify-center gap-16 w-[9rem] md:w-full py-3 px-1 text-gray-600 dark:text-gray-400">
             <a
               className="w-[1rem] md:w-[2.25rem]"
-              href="https://instagram.com/m_planner"
+              href="https://www.instagram.com/m_planner_?igsh=MWI5cmY4Y3psZmg2dA=="
             >
               <FaInstagram />
             </a>
