@@ -47,6 +47,12 @@ export const Projects = [
     demo: "https://plannorium-ecommerce.vercel.app/",
   },
   {
+    name: "AATC",
+    image: OEandA,
+    github: "https://github.com/Mplanner12/o-eand-a-real-estate",
+    demo: "https://o-eand-a-real-estate.vercel.app/AATC",
+  },
+  {
     name: "OEandA",
     image: OEandA,
     github: "https://github.com/Mplanner12/o-eand-a-real-estate",
@@ -59,16 +65,16 @@ export const Projects = [
     demo: "https://twitter-t3-app-two.vercel.app/",
   },
   {
-    name: "EDAS APP",
-    image: Edas,
-    github: "https://github.com/Mplanner12/EDASApp",
-    demo: "https://edas-app.vercel.app",
-  },
-  {
     name: "PRODUCT U",
     image: ProductU,
     github: "https://github.com/Mplanner12/Product-U",
     demo: "https://product-u.vercel.app",
+  },
+  {
+    name: "EDAS APP",
+    image: Edas,
+    github: "https://github.com/Mplanner12/EDASApp",
+    demo: "https://edas-app.vercel.app",
   },
   {
     name: "REAL ESTATE",
