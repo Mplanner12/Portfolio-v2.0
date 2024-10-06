@@ -20,7 +20,7 @@ export default function Home() {
         />
         <link rel="icon" href="/Avatar2.jpg" />
       </Head>
-      <main className=" bg-gray-100 px-8 dark:bg-gray-900 md:px-10 lg:px-14">
+      <main className=" bg-gray-100 px-8 dark:bg-gray-900 md:px-10 lg:px-14 flex flex-col justify-start items-center">
         <Nav setDarkMode={setDarkMode} darkMode={darkMode} />
         <Intro />
         <About />

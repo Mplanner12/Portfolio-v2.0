@@ -11,19 +11,21 @@ import Link from "next/link";
 export default function Nav({ setDarkMode, darkMode }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <section className="min-h-screen w-full md:mb-[3rem]">
-      <nav className="w-full py-10 mb-12 flex justify-between dark:text-white">
-        <h1 className="relative top-[1rem] font-burtons text-xl">Planner</h1>
+    <section className="h-full w-full">
+      <nav className="w-full py-10 mb-12 h-full flex justify-between dark:text-white">
+        <h1 className="relative top-[1rem] h-fit font-burtons text-xl">
+          Planner
+        </h1>
         <div
           onClick={() => setIsOpen(!isOpen)}
-          className="text-2xl z-20 w-fit md:hidden absolute right-[3rem] top-[3.5rem]"
+          className="text-2xl z-30 w-fit md:hidden absolute right-[3rem] top-[3.5rem]"
         >
           {isOpen ? <GiCancel /> : <AiOutlineMenu />}
         </div>
         <ul
-          className={`z-10 flex flex-col md:flex-row self-center items-center rounded-lg h-[36.5rem] w-full md:w-fit md:h-fit bg-white dark:bg-gradient-to-tr from-cyan-700 to-gray-800 dark:md:bg-none md:bg-inherit ${
-            isOpen ? "visible" : "invisible"
-          } md:visible`}
+          className={`z-20 flex flex-col relative md:flex-row self-center items-center rounded-lg w-full md:w-fit md:h-fit bg-white dark:bg-gradient-to-tr from-cyan-700 to-gray-800 dark:md:bg-none md:bg-inherit ${
+            isOpen ? "block" : "hidden"
+          } md:flex`}
         >
           <li
             className="cursor-pointer md:-my-[2.5rem] mt-[1rem] mb-[0.8rem] md:mb-0"

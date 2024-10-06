@@ -22,10 +22,13 @@ export default function Intro() {
     });
   }, []);
   return (
-    <section id="intro" className="-mt-[35rem] md:-mt-[35rem] lg:-mt-[39rem]">
+    <section
+      id="intro"
+      className="flex flex-col justify-start items-center w-full"
+    >
       <Toaster />
-      <div className="text-center p-10 py-10 md:px-3 md:flex md:justify-end lg:w-full">
-        <div className="w-full relative md:top-20 md:w-[30rem] px-[1.5rem]">
+      <div className="text-center p-10 py-10 md:px-[5rem] flex flex-col md:flex-row items-center justify-between w-full h-full">
+        <div className="w-full relative md:w-[30rem] px-[1.5rem]">
           <h3 className="h-[8rem] mb-[4.35rem] lg:mb-[4.5rem] text-[2.35rem] py-2 dark:text-cyan-600 md:text-4xl md:leading-[3rem]">
             <span className="md:text-[4.5rem]">
               <Typewriter
@@ -45,7 +48,7 @@ export default function Intro() {
               />
             </span>
           </h3>
-          <div className="text-5xl flex justify-center gap-16 w-[9rem] md:w-full py-3 px-1 text-gray-600 dark:text-gray-400">
+          <div className="text-5xl flex justify-center gap-16 items-center w-full py-3 px-1 text-gray-600 dark:text-gray-400">
             <a
               className="w-[1rem] md:w-[2.25rem]"
               href="https://www.instagram.com/m_planner_?igsh=MWI5cmY4Y3psZmg2dA=="
@@ -71,7 +74,7 @@ export default function Intro() {
               <FaLinkedinIn />
             </a>
           </div>
-          <div className="flex justify-center w-full mt-[2.25rem] md:mt-[2.5rem] md:self-center">
+          <div className="flex justify-center w-full mt-[2.25rem] items-center">
             <motion.button
               className="w-[20rem] md:w-[14rem] flex justify-around border-cyan-800 dark:bg-black bg-white dark:bg-gradient-to-r from-cyan-700 shadow-xl to-gray-800 md:text-[1.15rem] dark:text-white px-4 py-4 border-none rounded-[1.25rem] ml-8"
               whileHover={{ scale: 1.2 }}
@@ -88,7 +91,7 @@ export default function Intro() {
             </motion.button>
           </div>
         </div>
-        <div className="mx-auto lg:ml-[15rem] -left-[3rem] rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+        <div className="mx-auto flex justify-center items-center rounded-full w-80 h-80 relative overflow-hidden mt-20 md:mt-0 md:h-96 md:w-96">
           <Image
             className=""
             src={MyAvatar}
