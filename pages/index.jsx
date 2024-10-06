@@ -16,7 +16,7 @@ export default function Home() {
         <title>Planner&apos;s Portfolio</title>
         <meta
           name="description"
-          content="Mustapaha Shuaibu's portfolio, A skillful hard working Frontend Developer"
+          content="Mustapaha Shuaibu's portfolio, A skillful hard working Fullstack Developer"
         />
         <link rel="icon" href="/Avatar2.jpg" />
       </Head>
