@@ -39,7 +39,7 @@ export default function Contact() {
         ref={ref}
         className="bg-gray-200 dark:bg-gray-200 border-2 border-gray-500 flex flex-col md:flex-row justify-between md:justify-around rounded-2xl p-[1.35rem] w-[19.85rem] md:w-[28rem] h-fit mx-auto"
       >
-        <span className="w-fit mx-auto flex justify-around md:justify-between text-gray-900 dark:text-cyan-900">
+        <span className="w-fit h-full flex items-center mx-auto justify-between text-gray-900 dark:text-cyan-900">
           <AiTwotoneMail />
           <a
             className="md:ml-[0.45rem] md:text-lg"
@@ -48,7 +48,7 @@ export default function Contact() {
             almussanmplanner12@gmail
           </a>
         </span>
-        <span className="flex justify-around md:justify-between mx-auto text-gray-900 w-fit dark:text-cyan-900">
+        <span className=" flex items-center mx-auto justify-between text-gray-900 w-fit dark:text-cyan-900">
           <IoLogoWhatsapp />{" "}
           <a
             className="md:ml-[0.45rem] md:text-lg"

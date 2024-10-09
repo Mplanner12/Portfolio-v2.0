@@ -55,7 +55,7 @@ export default function About() {
             objectFit="contain"
           />
         </div>
-        <p className="tracking-wider p-[1.85rem] text-start md:p-[1.5rem] flex justify-start items-center md:leading-8 mt-[2rem] md:mt-0 text-xl md:text-[1.95rem] dark:text-white md:w-[65rem]">
+        <p className="tracking-wider p-[1.85rem] text-start md:p-[1.5rem] flex justify-start items-center md:leading-8 mt-[2rem] md:mt-0 text-xl md:text-[1.95rem] dark:text-white w-full">
           {" "}
           With expertise in React, Next.js, Node.js, and PostgreSQL, I excel in
           building robust web applications that deliver exceptional user
