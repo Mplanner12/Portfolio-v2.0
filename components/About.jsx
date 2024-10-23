@@ -46,16 +46,16 @@ export default function About() {
         </p>
       </div>
       <div className="md:flex gap-10 mt-3 md:-mt-5 md:justify-start md:gap-x-[5rem] md:items-center">
-        <div className="mx-auto rounded-xl w-80 h-80 relative overflow-hidden flex items-center justify-center mt-12 md:mt-0 md:h-[22rem] md:ml-[2rem] lg:ml-[3.5rem] md:w-[27rem] md:mx-0">
+        <div className="mx-auto rounded-xl w-full lg:w-80 h-80 relative overflow-hidden flex items-center justify-center mt-12 md:mt-0 md:h-[22rem] md:ml-[2rem] lg:ml-[3.5rem] md:w-[27rem] md:mx-0">
           <Image
-            className="md:w-full"
+            className="w-full"
             src={Myphoto}
             alt="My Photo"
             // layout="fill"
             objectFit="contain"
           />
         </div>
-        <p className="tracking-wider p-[1.85rem] text-start md:p-[1.5rem] flex justify-start items-center md:leading-8 mt-[2rem] md:mt-0 text-xl md:text-[1.95rem] dark:text-white w-full">
+        <p className="tracking-wider text-start md:p-[1.5rem] flex justify-start items-center md:leading-8 mt-[2rem] md:mt-0 text-xl md:text-[1.95rem] dark:text-white w-full">
           {" "}
           With expertise in React, Next.js, Node.js, and PostgreSQL, I excel in
           building robust web applications that deliver exceptional user

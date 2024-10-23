@@ -27,7 +27,7 @@ export default function Intro() {
       className="flex flex-col justify-start items-center w-full"
     >
       <Toaster />
-      <div className="text-center p-10 py-10 md:px-[5rem] flex flex-col md:flex-row items-center justify-between w-full h-full">
+      <div className="text-center py-10 md:px-[5rem] flex flex-col md:flex-row items-center justify-between w-full h-full">
         <div className="w-full relative md:w-[30rem] px-[1.5rem]">
           <h3 className="h-[8rem] mb-[4.35rem] lg:mb-[4.5rem] text-[2.35rem] py-2 dark:text-cyan-600 md:text-4xl md:leading-[3rem]">
             <span className="md:text-[4.5rem]">
@@ -55,12 +55,12 @@ export default function Intro() {
             >
               <FaInstagram />
             </a>
-            <a
+            {/* <a
               className="w-[1rem] md:w-[2.25rem]"
               href="https://twitter.com/_mussan_planner"
             >
               <FaXTwitter />
-            </a>
+            </a> */}
             <a
               className="w-[1rem] md:w-[2.25rem]"
               href="https://github.com/Mplanner12"
@@ -91,9 +91,9 @@ export default function Intro() {
             </motion.button>
           </div>
         </div>
-        <div className="mx-auto flex justify-center items-center rounded-full w-80 h-80 relative overflow-hidden mt-20 md:mt-0 md:h-96 md:w-96">
+        <div className="mx-auto flex justify-center items-center rounded-full w-full lg:w-80 h-80 relative overflow-hidden mt-20 md:mt-0 md:h-96 md:w-96">
           <Image
-            className=""
+            className="w-full h-full object-cover rounded-full"
             src={MyAvatar}
             alt="Avatr"
             layout="fill"

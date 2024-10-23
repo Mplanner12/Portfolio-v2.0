@@ -15,22 +15,23 @@ import Edas from "./ProjectImages/edas.png";
 import home from "./ProjectImages/home.png";
 
 export const skills = [
-  "React",
+  "React.js",
+  "React Native",
   "Next.js",
   "Node.js",
+  "Express.js",
   "TypeScript",
   "Tailwind CSS",
   "Prisma",
+  "Mongoose",
   "MongoDB",
-  "API Development",
+  "REST",
   "Django",
   "DevOps",
-  "AWS",
-  "Docker",
+  "Data Structures",
   "CI/CD",
   "Kubernetes",
   "postgresql",
-  "Server Components",
   "App Router",
 ];
 
