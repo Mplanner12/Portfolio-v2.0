@@ -10,6 +10,8 @@ import Calculator from "./ProjectImages/Calculator.jpg";
 import Plannorium from "./ProjectImages/Plannorium.jpg";
 import OEandA from "./ProjectImages/OEandA.png";
 import AATC from "./ProjectImages/AATC.png";
+import Advice from "./ProjectImages/Advice-app.png";
+import lendsqr from "./ProjectImages/lendsqr.png";
 import Xlogo from "./ProjectImages/X-logo.jpeg";
 import Edas from "./ProjectImages/edas.png";
 import home from "./ProjectImages/home.png";
@@ -61,6 +63,12 @@ export const Projects = [
     demo: "https://o-eand-a-real-estate.vercel.app/",
   },
   {
+    name: "ADVICE CHAT APP",
+    image: Advice,
+    github: "https://github.com/Mplanner12/advice-chatbot",
+    demo: "https://advice-chatbot.vercel.app/",
+  },
+  {
     name: "TWITTER CLONE",
     image: Xlogo,
     github: "https://github.com/Mplanner12/twitter-t3-app",
@@ -73,16 +81,22 @@ export const Projects = [
     demo: "https://product-u.vercel.app",
   },
   {
-    name: "EDAS APP",
-    image: Edas,
-    github: "https://github.com/Mplanner12/EDASApp",
-    demo: "https://edas-app.vercel.app",
-  },
-  {
     name: "REAL ESTATE",
     image: RealE,
     github: "https://github.com/Mplanner12/Real_estate_project",
     demo: "https://real-estate-project-three.vercel.app/",
+  },
+  {
+    name: "LENDSQR DASHBOARD",
+    image: lendsqr,
+    github: "https://github.com/Mplanner12/lendapp",
+    demo: "https://mustapha-shuaibu-lendsqr-fe-test.vercel.app/",
+  },
+  {
+    name: "EDAS APP",
+    image: Edas,
+    github: "https://github.com/Mplanner12/EDASApp",
+    demo: "https://edas-app.vercel.app",
   },
   {
     name: "SUBSCRIPTION PACKAGES",
