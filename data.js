@@ -75,6 +75,12 @@ export const Projects = [
     demo: "https://twitter-t3-app-two.vercel.app/",
   },
   {
+    name: "LENDSQR DASHBOARD",
+    image: lendsqr,
+    github: "https://github.com/Mplanner12/lendapp",
+    demo: "https://mustapha-shuaibu-lendsqr-fe-test.vercel.app/",
+  },
+  {
     name: "PRODUCT U",
     image: ProductU,
     github: "https://github.com/Mplanner12/Product-U",
@@ -85,12 +91,6 @@ export const Projects = [
     image: RealE,
     github: "https://github.com/Mplanner12/Real_estate_project",
     demo: "https://real-estate-project-three.vercel.app/",
-  },
-  {
-    name: "LENDSQR DASHBOARD",
-    image: lendsqr,
-    github: "https://github.com/Mplanner12/lendapp",
-    demo: "https://mustapha-shuaibu-lendsqr-fe-test.vercel.app/",
   },
   {
     name: "EDAS APP",
