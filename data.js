@@ -58,7 +58,7 @@ export const Projects = [
     demo: "https://o-eand-a-real-estate.vercel.app/AATC",
   },
   {
-    name: "Contentful-Blog",
+    name: "CONTENTFUL-BLOG",
     image: Contentful,
     github: "https://github.com/Mplanner12/Contentful-Tech-Blogs",
     demo: "https://contentful-tech-blogs.vercel.app/",
