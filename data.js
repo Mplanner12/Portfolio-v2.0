@@ -9,6 +9,7 @@ import Weather from "./ProjectImages/Weather.jpg";
 import Calculator from "./ProjectImages/Calculator.jpg";
 import Plannorium from "./ProjectImages/Plannorium.jpg";
 import OEandA from "./ProjectImages/OEandA.png";
+import Contentful from "./ProjectImages/Contentful.png";
 import AATC from "./ProjectImages/AATC.png";
 import Advice from "./ProjectImages/Advice-app.png";
 import lendsqr from "./ProjectImages/lendsqr.png";
@@ -55,6 +56,12 @@ export const Projects = [
     image: AATC,
     github: "https://github.com/Mplanner12/o-eand-a-real-estate",
     demo: "https://o-eand-a-real-estate.vercel.app/AATC",
+  },
+  {
+    name: "Contentful-Blog",
+    image: Contentful,
+    github: "https://github.com/Mplanner12/Contentful-Tech-Blogs",
+    demo: "https://contentful-tech-blogs.vercel.app/",
   },
   {
     name: "OEandA",
