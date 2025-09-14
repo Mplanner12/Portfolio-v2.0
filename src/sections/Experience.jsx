@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { expCards } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
+import Button from "../components/Button";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -147,6 +148,11 @@ const Experience = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className="flex-center mt-20">
+          <a href="/resume.pdf" download>
+            <Button text="Download My Resume" />
+          </a>
         </div>
       </div>
     </section>
