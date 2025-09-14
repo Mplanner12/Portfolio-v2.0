@@ -1,5 +1,5 @@
 const navLinks = [
-  { name: "Home", link: "#intro" },
+  { name: "Home", link: "#hero" },
   // { name: "About me", link: "#about" },
   { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#project" },
@@ -331,46 +331,46 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Aneequel",
+    mentions: "@aneequel",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "Working with Planner has been an absolute pleasure. At SparkStrand, we needed someone who could take initiative and build complex features, and he delivered beyond our expectations. His contributions to our component library have been invaluable. He's a top-tier developer.",
+    imgPath: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Kazeem",
+    mentions: "@kazeem",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "As the Head of Development at Visiflux, I've worked with many developers, and Mustapha stands out. His technical skills are top-notch, and he has a great ability to solve complex problems. He was a key player in our projects.",
+    imgPath: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Ayodeji",
+    mentions: "@ayodeji",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "Planner's work as a Fullstack Developer at VitalSwap was exceptional. He was instrumental in building our platform. His expertise in both frontend and backend technologies is impressive. I highly recommend him.",
+    imgPath: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Mr. Idris",
+    mentions: "@idris_cartagro",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Mustapha developed the entire platform for CartAgro. His dedication and skill were evident from day one. He delivered a high-quality product that has been central to our business. An excellent full-stack developer.",
+    imgPath: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Mr. Samuel",
+    mentions: "@samuel_cot",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "At CareerOnTrack, Planner helped us build our AI-powered platform. His ability to work with complex requirements and deliver a polished, user-friendly product is outstanding. He's a great asset to any team.",
+    imgPath: "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Mr. Tobi",
+    mentions: "@tobi_foodhutz",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "Mustapha's work on the FoodHutz platform was transformative. He led the frontend development for our new version, and the results speak for themselves. The UI is modern, fast, and responsive. A truly skilled developer.",
+    imgPath: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
   },
 ];
 

@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
 
 import TitleHeader from "../components/TitleHeader";
 import ContactExperience from "../components/models/contact/ContactExperience";
@@ -29,21 +30,23 @@ const Contact = () => {
     // publicKey: xxxxxxxxxxxxxxxxxxx
     emailjs
       .send(
-        "service_xxxxxxx",
-        "template_xxxxxxx",
+        "service_ig95b26",
+        "template_exlow6e",
         {
           from_name: form.name,
           to_name: "Mustapha",
           from_email: form.email,
-          to_email: "almussanmplanner12@gmail.com",
+          to_email: "almussanplanner12@gmail.com",
           message: form.message,
         },
-        "xxxxxxxxxxxxxxxxxxx"
+        "-7AVlyBsEXUhCTna0"
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          toast.success(
+            "Thank you. I will get back to you as soon as possible."
+          );
           setForm({
             name: "",
             email: "",
@@ -52,8 +55,8 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.log(error);
-          alert("Something went wrong.");
+          console.error(error);
+          toast.error("Ahh, something went wrong. Please try again.");
         }
       );
   };
@@ -108,7 +111,7 @@ const Contact = () => {
             </label>
             <button
               type="submit"
-              className="w-full py-4 bg-white text-black font-semibold rounded-md flex justify-center items-center gap-2"
+              className="w-full py-4 bg-white text-black font-semibold rounded-md flex justify-center items-center gap-2 cursor-pointer hover:bg-gray-300"
             >
               {loading ? "Sending..." : "Send"}
               <img src="/images/arrow-right.svg" alt="" />

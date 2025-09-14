@@ -12,9 +12,6 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="flex flex-col justify-center">
-          <p>Terms & Conditions</p>
-        </div>
         <div className="socials">
           {socialImgs.map((socialImg) => (
             <a
@@ -29,8 +26,8 @@ const Footer = () => {
           ))}
         </div>
         <div className="flex flex-col justify-center">
-          <p className="text-center md:text-end">
-            © {new Date().getFullYear()} Adrian Hajdin. All rights reserved.
+          <p className="text-center md:text-end text-sm text-gray-500 cursor-text">
+            © {new Date().getFullYear()} Mustapha Shuaibu. All rights reserved.
           </p>
         </div>
       </div>
