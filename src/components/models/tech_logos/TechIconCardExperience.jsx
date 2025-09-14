@@ -28,7 +28,7 @@ const TechIconCardExperience = ({ model }) => {
         penumbra={1}
         intensity={2}
       />
-      <Environment preset="city" />
+      {/* <Environment preset="city" /> */}
 
       {/* 
         The Float component from @react-three/drei is used to 

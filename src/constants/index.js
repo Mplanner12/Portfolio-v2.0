@@ -335,7 +335,8 @@ const testimonials = [
     mentions: "@aneequel",
     review:
       "Working with Planner has been an absolute pleasure. At SparkStrand, we needed someone who could take initiative and build complex features, and he delivered beyond our expectations. His contributions to our component library have been invaluable. He's a top-tier developer.",
-    imgPath: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg",
+    imgPath:
+      "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg",
   },
   {
     name: "Kazeem",
@@ -363,7 +364,8 @@ const testimonials = [
     mentions: "@samuel_cot",
     review:
       "At CareerOnTrack, Planner helped us build our AI-powered platform. His ability to work with complex requirements and deliver a polished, user-friendly product is outstanding. He's a great asset to any team.",
-    imgPath: "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg",
+    imgPath:
+      "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg",
   },
   {
     name: "Mr. Tobi",
