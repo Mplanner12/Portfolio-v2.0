@@ -211,7 +211,8 @@ const expCards = [
       "Worked closely with product teams to align technical solutions with business goals and user needs.",
       "Ensured a smooth user experience by resolving issues and optimizing UI components for all devices.",
     ],
-    logoPath: "/images/logos/company-logo-1.png",
+    logoPath:
+      "https://media.licdn.com/dms/image/v2/C4E0BAQGyoPAndlbGsQ/company-logo_100_100/company-logo_100_100/0/1630650101722/sparkstrand_logo?e=1761177600&v=beta&t=i5R_AEUZqdELpEXH2cqu3XoE1Y9G_ABL2B9iHyLZLHI",
     imgPath: "/images/logos/code-icon.png",
   },
   {
@@ -224,7 +225,8 @@ const expCards = [
       "Collaborated with product teams to align technical implementations with business objectives and user requirements.",
       "Optimized UI components for performance and accessibility, ensuring a seamless experience across all devices.",
     ],
-    logoPath: "/images/logos/company-logo-2.png",
+    logoPath:
+      "https://media.licdn.com/dms/image/v2/D4E0BAQH0nrKCQN3D1w/company-logo_100_100/B4EZYGsAEBHgAY-/0/1743868920475/ivoryfinance_logo?e=1761177600&v=beta&t=lyo_WmUu2Jx4gaaT4ML7UhYQ3URYQmntDRpUK1tQ8ag",
     imgPath: "/images/logos/code-icon.png",
   },
   {
@@ -237,7 +239,8 @@ const expCards = [
       "Worked closely with product teams to align technical solutions with business goals and user needs.",
       "Ensured a smooth user experience by resolving issues and optimizing UI components for all devices.",
     ],
-    logoPath: "/images/logos/company-logo-3.png",
+    logoPath:
+      "https://media.licdn.com/dms/image/v2/D4E0BAQEy-pUvcml27A/company-logo_200_200/company-logo_200_200/0/1687790359218/foodhutz_ltd_logo?e=1761177600&v=beta&t=E9hJi8NSWtmY20mdBkuW5zO86QHzwofu9w18FTV5RYE",
     imgPath: "/images/logos/code-icon.png",
   },
   {
@@ -250,7 +253,8 @@ const expCards = [
       "Improved application performance and responsiveness, enhancing the user journey across platforms.",
       "Collaborated with backend teams to ensure seamless integration of AI models and user interfaces.",
     ],
-    logoPath: "/images/logos/company-logo-4.png",
+    logoPath:
+      "https://media.licdn.com/dms/image/v2/D560BAQHrY6euel9Cyw/company-logo_200_200/company-logo_200_200/0/1728574447288/careerontrack_ai_logo?e=1761177600&v=beta&t=NCsqWwEEIFZ3LK0t5dhmJpMBAaP6RBJo26MSCb-ZqCc",
     imgPath: "/images/logos/code-icon.png",
   },
   {
@@ -262,7 +266,8 @@ const expCards = [
       "Implement complex features on the frontend and backend, enhancing user experience and application performance.",
       "Collaborate with cross-functional teams to deliver high-quality software solutions that align with business objectives.",
     ],
-    logoPath: "/images/logos/company-logo-5.png",
+    logoPath:
+      "https://media.licdn.com/dms/image/v2/D4D0BAQFpSLJfvplApg/company-logo_200_200/company-logo_200_200/0/1728302431173/cartagrohub_logo?e=1761177600&v=beta&t=zFVt_V5AY-c9OXIhNdogOlnuumU4DCSnuAFEaN0IzgM",
     imgPath: "/images/logos/code-icon.png",
   },
   {
@@ -273,7 +278,7 @@ const expCards = [
       "Develop and maintain web applications using modern technologies, ensuring responsive and user-friendly interfaces.",
       "Work closely with designers and backend developers to create seamless, performant applications.",
     ],
-    logoPath: "/images/logos/company-logo-6.png",
+    logoPath: "/images/logos/code-icon.png",
     imgPath: "/images/logos/code-icon.png",
   },
   {
@@ -286,7 +291,7 @@ const expCards = [
       "Developed and optimized frontend UI components for internal tools and platforms to improve usability and performance.",
       "Created illustrative data visualization models and AI-driven prototypes to support the company's internal operations and learning initiatives.",
     ],
-    logoPath: "/images/logos/company-logo-7.png",
+    logoPath: "/images/logos/officebox-logo.avif",
     imgPath: "/images/logos/code-icon.png",
   },
   {
@@ -298,7 +303,8 @@ const expCards = [
       "Enhanced the UI/UX of the platform, leading to increased sales and customer satisfaction.",
       "Built a robust backend system for the users.",
     ],
-    logoPath: "/images/logos/company-logo-8.png",
+    logoPath:
+      "https://media.licdn.com/dms/image/v2/C4D0BAQH01Q28R42GLA/company-logo_200_200/company-logo_200_200/0/1638279465635/to_code_logo?e=1761177600&v=beta&t=5wJGU9RJ7J_BmGpXwtp1fbSQ-q2gP5Z-77c4XJZbXCw",
     imgPath: "/images/logos/code-icon.png",
   },
   {
@@ -309,7 +315,8 @@ const expCards = [
       "Led the design and development of user-friendly interfaces for the company's flagship energy management application.",
       "Collaborated with backend developers to integrate APIs and services.",
     ],
-    logoPath: "/images/logos/company-logo-9.png",
+    logoPath:
+      "https://media.licdn.com/dms/image/v2/C4D0BAQF4Y2C-RVN3Cg/company-logo_200_200/company-logo_200_200/0/1663454434104?e=1761177600&v=beta&t=WaKKi9JY40Z3L91-vdwZTgwJDz1vAQJBKzgomIqOXJY",
     imgPath: "/images/logos/code-icon.png",
   },
 ];
