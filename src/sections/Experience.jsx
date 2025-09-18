@@ -106,11 +106,11 @@ const Experience = () => {
               <div key={index} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
                   <GlowCard card={card}>
-                    <div>
+                    <div className="w-[35%] h-[20%]">
                       <img
                         src={card.logoPath}
                         alt="exp-img"
-                        className="w-[80%] h-[65%]"
+                        className="w-full"
                       />
                     </div>
                   </GlowCard>
@@ -127,9 +127,14 @@ const Experience = () => {
                       </div>
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
-                        <h2 className="font-semibold text-xl text-white-70 mt-2">
-                          {card.company}
-                        </h2>
+                        <div className="flex items-center gap-x-4 flex-wrap">
+                          <h2 className="font-semibold text-xl text-gray-400 mt-2">
+                            {card.company}
+                          </h2>
+                          <p className="mt-2 text-white-50 bg-[#1E293B] px-2 py-1 rounded-md text-sm">
+                            {card.type}
+                          </p>
+                        </div>
                         <p className="my-5 text-white-50">
                           🗓️&nbsp;{card.date}
                         </p>

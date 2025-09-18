@@ -11,7 +11,7 @@ const ShowcaseSection = () => {
   const remainingProjects = Projects.slice(6);
 
   return (
-    <div id="project" className="section-padding">
+    <div id="projects" className="section-padding">
       <div className="w-full">
         <TitleHeader title="My Projects" sub="🚀 A Glimpse of My Work" />
         <div className="grid-3-cols mt-16">

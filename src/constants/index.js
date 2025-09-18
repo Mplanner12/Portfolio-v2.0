@@ -117,6 +117,14 @@ export const Projects = [
     contribution: "70-85%",
   },
   {
+    name: "Hadeeart Atelier",
+    description:
+      "A digital fashion brand's website. My role was to redesign and optimize the frontend by converting it from Tailwind CSS to Material UI, and to fix and maintain backend endpoints and mail systems.",
+    image: "/images/projectImages/Hadeeart.png",
+    demo: "https://hadeeartatelier.com/",
+    contribution: "100%",
+  },
+  {
     name: "TeamHub",
     description:
       "An all-in-one workspace for modern teams, featuring real-time chat, task management, and document sharing.",
@@ -203,6 +211,33 @@ export const Projects = [
 const expCards = [
   {
     title: "Frontend Developer",
+    company: "Vitalswap",
+    date: "06/2024 - Present",
+    responsibilities: [
+      "Maintained and developed features for 4+ platforms, including business, support, checkout, and landing pages.",
+      "Fully developed the company's hackathon website from scratch.",
+      "Ensured the reliability and performance of critical financial applications.",
+    ],
+    logoPath: "/images/logos/vitalswap-logo.png",
+    imgPath: "/images/logos/code-icon.png",
+    type: "Full-time",
+  },
+  {
+    title: "MERN Stack Developer",
+    company: "Hadeeart Atelier",
+    date: "05/2024 - 08/2024",
+    responsibilities: [
+      "Redesigned and optimized the frontend UI, converting the entire codebase from Tailwind CSS to Material UI.",
+      "Fixed and maintained backend endpoints, mail systems, and email templates to improve functionality.",
+      "Enhanced the overall user experience by implementing a modern, intuitive, and responsive design.",
+    ],
+    logoPath:
+      "https://media.licdn.com/dms/image/v2/D4D0BAQHzJF6CpEss-Q/company-logo_200_200/company-logo_200_200/0/1723310907899/hadeeart_atelier_logo?e=1761177600&v=beta&t=oAtD6zuKacLzFfUkpeiAujtpxIhbIhxAcata2r3YEo0",
+    imgPath: "/images/logos/code-icon.png",
+    type: "Full-time",
+  },
+  {
+    title: "Frontend Developer",
     company: "Spark Strand",
     date: "01/2025 - Present",
     responsibilities: [
@@ -214,6 +249,7 @@ const expCards = [
     logoPath:
       "https://media.licdn.com/dms/image/v2/C4E0BAQGyoPAndlbGsQ/company-logo_100_100/company-logo_100_100/0/1630650101722/sparkstrand_logo?e=1761177600&v=beta&t=i5R_AEUZqdELpEXH2cqu3XoE1Y9G_ABL2B9iHyLZLHI",
     imgPath: "/images/logos/code-icon.png",
+    type: "Full-time",
   },
   {
     title: "Frontend Developer",
@@ -228,6 +264,7 @@ const expCards = [
     logoPath:
       "https://media.licdn.com/dms/image/v2/D4E0BAQH0nrKCQN3D1w/company-logo_100_100/B4EZYGsAEBHgAY-/0/1743868920475/ivoryfinance_logo?e=1761177600&v=beta&t=lyo_WmUu2Jx4gaaT4ML7UhYQ3URYQmntDRpUK1tQ8ag",
     imgPath: "/images/logos/code-icon.png",
+    type: "Full-time",
   },
   {
     title: "Frontend Developer",
@@ -242,6 +279,7 @@ const expCards = [
     logoPath:
       "https://media.licdn.com/dms/image/v2/D4E0BAQEy-pUvcml27A/company-logo_200_200/company-logo_200_200/0/1687790359218/foodhutz_ltd_logo?e=1761177600&v=beta&t=E9hJi8NSWtmY20mdBkuW5zO86QHzwofu9w18FTV5RYE",
     imgPath: "/images/logos/code-icon.png",
+    type: "Part-time",
   },
   {
     title: "Frontend Developer",
@@ -256,6 +294,7 @@ const expCards = [
     logoPath:
       "https://media.licdn.com/dms/image/v2/D560BAQHrY6euel9Cyw/company-logo_200_200/company-logo_200_200/0/1728574447288/careerontrack_ai_logo?e=1761177600&v=beta&t=NCsqWwEEIFZ3LK0t5dhmJpMBAaP6RBJo26MSCb-ZqCc",
     imgPath: "/images/logos/code-icon.png",
+    type: "Full-time",
   },
   {
     title: "Fullstack Developer",
@@ -269,6 +308,7 @@ const expCards = [
     logoPath:
       "https://media.licdn.com/dms/image/v2/D4D0BAQFpSLJfvplApg/company-logo_200_200/company-logo_200_200/0/1728302431173/cartagrohub_logo?e=1761177600&v=beta&t=zFVt_V5AY-c9OXIhNdogOlnuumU4DCSnuAFEaN0IzgM",
     imgPath: "/images/logos/code-icon.png",
+    type: "Full-time",
   },
   {
     title: "Part-Time Fullstack Developer",
@@ -280,6 +320,7 @@ const expCards = [
     ],
     logoPath: "/images/logos/code-icon.png",
     imgPath: "/images/logos/code-icon.png",
+    type: "Part-time",
   },
   {
     title: "Frontend Developer & Data Science Mentor",
@@ -293,32 +334,35 @@ const expCards = [
     ],
     logoPath: "/images/logos/officebox-logo.avif",
     imgPath: "/images/logos/code-icon.png",
+    type: "Contract Part-time",
   },
-  {
-    title: "Fullstack Developer",
-    company: "ToCode",
-    date: "06/2023 - 11/2023",
-    responsibilities: [
-      "Designed and developed a comprehensive e-learning web application that significantly improved user engagement.",
-      "Enhanced the UI/UX of the platform, leading to increased sales and customer satisfaction.",
-      "Built a robust backend system for the users.",
-    ],
-    logoPath:
-      "https://media.licdn.com/dms/image/v2/C4D0BAQH01Q28R42GLA/company-logo_200_200/company-logo_200_200/0/1638279465635/to_code_logo?e=1761177600&v=beta&t=5wJGU9RJ7J_BmGpXwtp1fbSQ-q2gP5Z-77c4XJZbXCw",
-    imgPath: "/images/logos/code-icon.png",
-  },
-  {
-    title: "Frontend Developer",
-    company: "IEnergyUp Innovation Lab",
-    date: "05/2022 - 11/2022",
-    responsibilities: [
-      "Led the design and development of user-friendly interfaces for the company's flagship energy management application.",
-      "Collaborated with backend developers to integrate APIs and services.",
-    ],
-    logoPath:
-      "https://media.licdn.com/dms/image/v2/C4D0BAQF4Y2C-RVN3Cg/company-logo_200_200/company-logo_200_200/0/1663454434104?e=1761177600&v=beta&t=WaKKi9JY40Z3L91-vdwZTgwJDz1vAQJBKzgomIqOXJY",
-    imgPath: "/images/logos/code-icon.png",
-  },
+  // {
+  //   title: "Fullstack Developer",
+  //   company: "ToCode",
+  //   date: "06/2023 - 11/2023",
+  //   responsibilities: [
+  //     "Designed and developed a comprehensive e-learning web application that significantly improved user engagement.",
+  //     "Enhanced the UI/UX of the platform, leading to increased sales and customer satisfaction.",
+  //     "Built a robust backend system for the users.",
+  //   ],
+  //   logoPath:
+  //     "https://media.licdn.com/dms/image/v2/C4D0BAQH01Q28R42GLA/company-logo_200_200/company-logo_200_200/0/1638279465635/to_code_logo?e=1761177600&v=beta&t=5wJGU9RJ7J_BmGpXwtp1fbSQ-q2gP5Z-77c4XJZbXCw",
+  //   imgPath: "/images/logos/code-icon.png",
+  //   type: "Contract Full-time",
+  // },
+  // {
+  //   title: "Frontend Developer",
+  //   company: "IEnergyUp Innovation Lab",
+  //   date: "05/2022 - 11/2022",
+  //   responsibilities: [
+  //     "Led the design and development of user-friendly interfaces for the company's flagship energy management application.",
+  //     "Collaborated with backend developers to integrate APIs and services.",
+  //   ],
+  //   logoPath:
+  //     "https://media.licdn.com/dms/image/v2/C4D0BAQF4Y2C-RVN3Cg/company-logo_200_200/company-logo_200_200/0/1663454434104?e=1761177600&v=beta&t=WaKKi9JY40Z3L91-vdwZTgwJDz1vAQJBKzgomIqOXJY",
+  //   imgPath: "/images/logos/code-icon.png",
+  //   type: "Contract Part-time",
+  // },
 ];
 
 const expLogos = [
