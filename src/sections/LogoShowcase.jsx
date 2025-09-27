@@ -2,7 +2,7 @@ import { expCards } from "../constants";
 
 const LogoIcon = ({ card }) => {
   return (
-    <div className="flex-none flex-center marquee-item">
+    <div className="flex-none flex-center marquee-item w-32 h-32">
       <img src={card.logoPath} alt={card.company} />
     </div>
   );
